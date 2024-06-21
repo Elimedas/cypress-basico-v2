@@ -8,9 +8,8 @@
     "cy:open:mobile": "cypress open --config viewportwidth=410 viewportHeigth=860",
     "test": "cypress run",
     "cy:open:mobile2": "cypress run --config viewportwidth=411 viewportHeigth=860"
-    },
-    
-    "repository": {
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/wlsf82/cypress-basico-v2.git"
   },
@@ -23,5 +22,8 @@
   ],
   "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
   "license": "MIT",
-  "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme"
+  "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme",
+  "bugs": {
+    "url": "https://github.com/wlsf82/cypress-basico-v2/issues"
+  }
 }
