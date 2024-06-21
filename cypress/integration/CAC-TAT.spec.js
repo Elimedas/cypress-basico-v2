@@ -191,7 +191,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
         //remover o atributo target para que possa prosseguir com o teste, visto que o Cypress não reconhece abertura de outra aba do navegador
         .invoke('removeAttr', 'target')
         .click()
-        //verifica se contém o texto informado
+        //verifica se contém os texto informados
         cy.contains('Talking About Testing').should('have.visible')
     })
    
