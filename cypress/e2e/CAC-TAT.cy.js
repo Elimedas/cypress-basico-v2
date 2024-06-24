@@ -185,7 +185,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
         //<a href="privacy.html" target="_blank">Política de Privacidade</a>
     })
 
-    //testee
+    //teste
     it('acessa a página da política de privacidade removendo o target e então clicando no link', function (){
         cy.get('#privacy a').should('have.attr', 'target', '_blank')
         //remover o atributo target para que possa prosseguir com o teste, visto que o Cypress não reconhece abertura de outra aba do navegador
