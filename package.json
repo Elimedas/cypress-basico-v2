@@ -4,9 +4,9 @@
   "description": "Repositório da versão 2 do curso básico de Cypress da Escola Talking About Testing",
   "main": "src/index.html",
   "scripts": {
-    "cy:open": "cypress open",
+    "cy:open": "cypress open --config-file=cypress.config.js",
     "cy:open:mobile": "cypress open --config viewportwidth=410 viewportHeigth=860",
-    "test": "cypress run",
+    "test": "cypress run  --runner-ui",
     "cy:open:mobile2": "cypress run --config viewportwidth=411 viewportHeigth=860"
   },
   "repository": {
